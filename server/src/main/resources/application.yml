@@ -1,0 +1,33 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: tuya-server
+  datasource:
+    url: ${DB_URL:jdbc:h2:file:./data/tuya}
+    username: ${DB_USER:sa}
+    password: ${DB_PASSWORD:}
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        format_sql: false
+    open-in-view: false
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+
+tuya:
+  cloud:
+    access-id: ${TUYA_CLOUD_ACCESS_ID:}
+    access-secret: ${TUYA_CLOUD_ACCESS_SECRET:}
+    region: ${TUYA_CLOUD_REGION:us}
+
+logging:
+  level:
+    root: INFO
+    com.hitorro: DEBUG

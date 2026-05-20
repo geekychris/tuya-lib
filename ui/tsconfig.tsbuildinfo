@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/usewebsocket.ts","./src/components/adddeviceform.tsx","./src/components/clouddevices.tsx","./src/components/cloudsettings.tsx","./src/components/devicecard.tsx","./src/components/dpcontrols.tsx","./src/components/poolpumpcontrols.tsx"],"version":"5.9.3"}

@@ -1,0 +1,1 @@
+ALTER TABLE devices ADD COLUMN preferred_transport VARCHAR(16) NOT NULL DEFAULT 'AUTO';
