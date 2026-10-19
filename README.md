@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Tuya Lib logo" width="180">
+</p>
+
 # tuya_lib
 
 A pure-Java library for talking to [Tuya](https://www.tuya.com/) smart devices over the local LAN (modelled on Node.js [tuyapi](https://github.com/codetheweb/tuyapi)) and over Tuya's Cloud OpenAPI, plus a Spring Boot reference server and a Vite/React UI for registering and controlling them.
